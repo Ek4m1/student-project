@@ -19,6 +19,7 @@ cd student-project
 ## Uso
 Ejemplos de uso del proyecto.
 
+Data cleaning and processing
 
 ## Cómo Contribuir
 Pasos para contribuir al proyecto.
