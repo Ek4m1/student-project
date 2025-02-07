@@ -10,8 +10,6 @@ print("Valores nulos por columna:\n", df.isnull().sum())
 df["edad"] = df["edad"].fillna(df["edad"].mean())
 df["salario"] = df["salario"].fillna(df["salario"].mean())
 
-# Eliminar duplicados si los hubiera
-df = df.drop_duplicates()
 
 # Convertir tipos de datos
 df["edad"] = pd.to_numeric(df["edad"], errors="coerce")
